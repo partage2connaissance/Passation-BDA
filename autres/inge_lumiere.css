@@ -87,6 +87,10 @@ img {
     width: 500px;
 }
 
+.budget{
+    width: 200px;
+}
+
 figcaption {
     text-align: center;
     font-style: italic;
@@ -136,6 +140,8 @@ a {
 .forum {
     margin-left: 590px;
 }
+
+
 
 a:hover {
     text-decoration: underline;
