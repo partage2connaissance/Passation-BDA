@@ -84,7 +84,7 @@ img {
     height: auto;
     display: block;
     margin: 20px auto;
-    width: 800px;
+    width: 500px;
 }
 
 figcaption {
@@ -125,13 +125,17 @@ blockquote {
 a {
     color: #e70fd8;
     text-decoration: none;
+    margin-left: 650px;
     font-size: 1.5em;
 }
 
-.spread {
-    margin-left: 600px;
+.chochorale {
+    margin-left: 675px;
 }
 
+.forum {
+    margin-left: 590px;
+}
 
 a:hover {
     text-decoration: underline;

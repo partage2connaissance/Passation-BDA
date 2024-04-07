@@ -25,6 +25,7 @@ body {
     align-items: center;
     background-color: #000;
     padding: 14px 30px;
+    margin-bottom: 40px;
 }
 
 .topbar p {
@@ -38,22 +39,24 @@ body {
 h1, h2, h3, h4 {
     margin-top: 20px;
     margin-bottom: 10px; /* Ajout de marge en bas pour séparer les titres du contenu */
-    color: #fff;
 }
 
 h1 {
     font-size: 24px;
+    color: #fff;
 }
 
 h2 {
     font-size: 20px;
     margin-left: 180px;
+    color: #fff;
 }
 
 h3 {
     font-size: 18px;
     margin-left: 200px;
     text-decoration: underline;
+    color: rgb(71, 135, 86);
     text-decoration-color: rgb(71, 135, 86); /* Couleur du soulignement */
     text-decoration-thickness: 2px; /* Épaisseur du soulignement */
     margin-bottom: 4px; /* Espacement entre le titre h3 et le soulignement */
@@ -63,7 +66,8 @@ h4 {
     font-size: 18px;
     margin-left: 220px;
     text-decoration: underline;
-    text-decoration-color: red; /* Couleur du soulignement */
+    color: rgb(181, 73, 73);
+    text-decoration-color: rgb(181, 73, 73); /* Couleur du soulignement */
     text-decoration-thickness: 2px; /* Épaisseur du soulignement */
     margin-bottom: 4px; /* Espacement entre le titre h3 et le soulignement */
 }
@@ -80,6 +84,7 @@ img {
     height: auto;
     display: block;
     margin: 20px auto;
+    width: 500px;
 }
 
 figcaption {
@@ -118,8 +123,17 @@ blockquote {
 
 /* Style pour les liens */
 a {
-    color: #007bff;
+    color: #e70fd8;
     text-decoration: none;
+    font-size: 1.5em;
+}
+
+.repas {
+    margin-left: 550px;
+}
+
+.crepe {
+    margin-left: 600px;
 }
 
 a:hover {

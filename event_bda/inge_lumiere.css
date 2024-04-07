@@ -25,6 +25,7 @@ body {
     align-items: center;
     background-color: #000;
     padding: 14px 30px;
+    margin-bottom: 40px;
 }
 
 .topbar p {
@@ -38,22 +39,24 @@ body {
 h1, h2, h3, h4 {
     margin-top: 20px;
     margin-bottom: 10px; /* Ajout de marge en bas pour séparer les titres du contenu */
-    color: #fff;
 }
 
 h1 {
     font-size: 24px;
+    color: #fff;
 }
 
 h2 {
     font-size: 20px;
     margin-left: 180px;
+    color: #fff;
 }
 
 h3 {
     font-size: 18px;
     margin-left: 200px;
     text-decoration: underline;
+    color: rgb(71, 135, 86);
     text-decoration-color: rgb(71, 135, 86); /* Couleur du soulignement */
     text-decoration-thickness: 2px; /* Épaisseur du soulignement */
     margin-bottom: 4px; /* Espacement entre le titre h3 et le soulignement */
@@ -63,7 +66,8 @@ h4 {
     font-size: 18px;
     margin-left: 220px;
     text-decoration: underline;
-    text-decoration-color: red; /* Couleur du soulignement */
+    color: rgb(181, 73, 73);
+    text-decoration-color: rgb(181, 73, 73); /* Couleur du soulignement */
     text-decoration-thickness: 2px; /* Épaisseur du soulignement */
     margin-bottom: 4px; /* Espacement entre le titre h3 et le soulignement */
 }
@@ -80,6 +84,244 @@ img {
     height: auto;
     display: block;
     margin: 20px auto;
+    width: 500px;
+}
+
+.splatoon_1 {
+    display: flex;
+    flex-direction: row; /* Assurez-vous que les éléments sont alignés sur la ligne */
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+.splatoon_1 img {
+    width: 500px; /* Largeur spécifique pour chaque image */
+    margin: 0 10px; /* Marge entre chaque image */
+    margin-bottom: 50px;
+}
+
+.splatoon_3 {
+    display: flex;
+    flex-direction: row; /* Assurez-vous que les éléments sont alignés sur la ligne */
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+.splatoon_3 img {
+    width: 500px; /* Largeur spécifique pour chaque image */
+    margin: 0 10px; /* Marge entre chaque image */
+    margin-bottom: 50px;
+}
+
+.splatoon_2 img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+}
+
+.steampunk_1 {
+    display: flex;
+    flex-direction: row; /* Assurez-vous que les éléments sont alignés sur la ligne */
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+.steampunk_1 img {
+    width: 300px; /* Largeur spécifique pour chaque image */
+    margin: 0 10px; /* Marge entre chaque image */
+    margin-bottom: 50px;
+}
+
+.steampunk_4 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    width: 400px;
+}
+
+
+.budget {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+}
+
+.among_us_1 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+}
+
+.among_us_2 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    width: 1200px;
+}
+
+.among_us_3 {
+    display: flex;
+    flex-direction: row; /* Assurez-vous que les éléments sont alignés sur la ligne */
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+.among_us_3 img {
+    width: 400px; /* Largeur spécifique pour chaque image */
+    margin: 0 10px; /* Marge entre chaque image */
+    margin-bottom: 50px;
+}
+
+.among_us_4 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    width: 500px;
+}
+
+.among_us_5 {
+    display: flex;
+    flex-direction: row; /* Assurez-vous que les éléments sont alignés sur la ligne */
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+.among_us_5 img {
+    width: 500px; /* Largeur spécifique pour chaque image */
+    height: auto; /* Pour maintenir le ratio d'aspect de l'image */
+    margin: 0 10px; /* Marge entre chaque image */
+    margin-bottom: 50px;
+    object-fit: contain; /* Ajuste l'image tout en préservant son ratio d'aspect */
+}
+
+.among_us_6 {
+    display: flex;
+    flex-direction: row; /* Assurez-vous que les éléments sont alignés sur la ligne */
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+.among_us_6 img {
+    width: 500px; /* Largeur spécifique pour chaque image */
+    height: auto; /* Pour maintenir le ratio d'aspect de l'image */
+    margin: 0 10px; /* Marge entre chaque image */
+    margin-bottom: 50px;
+    object-fit: contain; /* Ajuste l'image tout en préservant son ratio d'aspect */
+}
+
+.avatar_1 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    width: 350px;
+}
+
+.avatar_2 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    width: 500px;
+}
+
+.avatar_3 {
+    display: flex;
+    flex-direction: row; /* Assurez-vous que les éléments sont alignés sur la ligne */
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+.avatar_3 img {
+    width: 500px; /* Largeur spécifique pour chaque image */
+    height: auto; /* Pour maintenir le ratio d'aspect de l'image */
+    margin: 0 10px; /* Marge entre chaque image */
+    margin-bottom: 50px;
+    object-fit: contain; /* Ajuste l'image tout en préservant son ratio d'aspect */
+}
+
+.avatar_4 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    width: 500px;
+}
+
+.avatar_5 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    width: 500px;
+}
+
+.avatar_6 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    width: 500px;
+}
+
+.avatar_7 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    width: 500px;
+}
+
+.moulinsart_1 {
+    display: flex;
+    flex-direction: row; /* Assurez-vous que les éléments sont alignés sur la ligne */
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+.moulinsart_1 img {
+    width: 500px; /* Largeur spécifique pour chaque image */
+    height: auto; /* Pour maintenir le ratio d'aspect de l'image */
+    margin: 0 10px; /* Marge entre chaque image */
+    margin-bottom: 50px;
+    object-fit: contain; /* Ajuste l'image tout en préservant son ratio d'aspect */
+}
+
+.moulinsart_2 {
+    display: flex;
+    flex-direction: row; /* Assurez-vous que les éléments sont alignés sur la ligne */
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+.moulinsart_2 img {
+    width: 500px; /* Largeur spécifique pour chaque image */
+    height: auto; /* Pour maintenir le ratio d'aspect de l'image */
+    margin: 0 10px; /* Marge entre chaque image */
+    margin-bottom: 50px;
+    object-fit: contain; /* Ajuste l'image tout en préservant son ratio d'aspect */
+}
+
+.cyber_1 {
+    display: flex;
+    flex-direction: row; /* Assurez-vous que les éléments sont alignés sur la ligne */
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+.cyber_1 img {
+    width: 500px; /* Largeur spécifique pour chaque image */
+    height: auto; /* Pour maintenir le ratio d'aspect de l'image */
+    margin: 0 10px; /* Marge entre chaque image */
+    margin-bottom: 50px;
+    object-fit: contain; /* Ajuste l'image tout en préservant son ratio d'aspect */
+}
+
+.atelier_2 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    width: 500px;
 }
 
 figcaption {
@@ -118,9 +360,55 @@ blockquote {
 
 /* Style pour les liens */
 a {
-    color: #007bff;
+    color: #e70fd8;
     text-decoration: none;
+    font-size: 1.5em;
 }
+
+.steampunk_2 {
+    margin-left: 680px;
+}
+
+.steampunk_3 {
+    margin-left: 610px;
+}
+
+.avatar_8 {
+    margin-left: 650px;
+}
+
+.avatar_9 {
+    margin-left: 640px;
+}
+
+.avatar_10 {
+    margin-left: 620px;
+}
+
+.moulinsart_3 {
+    margin-left: 640px;
+}
+
+.moulinsart_4 {
+    margin-left: 650px;
+}
+
+.cyber_2 {
+    margin-left: 650px;
+}
+
+.cyber_3 {
+    margin-left: 630px;
+}
+
+.atelier_1 {
+    margin-left: 580px;
+}
+
+.atelier_3 {
+    margin-left: 630px;
+}
+
 
 a:hover {
     text-decoration: underline;
