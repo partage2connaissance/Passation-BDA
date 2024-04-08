@@ -87,6 +87,34 @@ img {
     width: 800px;
 }
 
+.forum_1 {
+    display: flex;
+    flex-direction: row; /* Assurez-vous que les éléments sont alignés sur la ligne */
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+.forum_1 img {
+    width: 450px; /* Largeur spécifique pour chaque image */
+    height: auto; /* Pour maintenir le ratio d'aspect de l'image */
+    margin: 0 10px; /* Marge entre chaque image */
+    margin-bottom: 50px;
+    object-fit: contain; /* Ajuste l'image tout en préservant son ratio d'aspect */
+}
+
+.forum_2 {
+    display: flex;
+    flex-direction: row; /* Assurez-vous que les éléments sont alignés sur la ligne */
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+.forum_2 img {
+    width: 450px; /* Largeur spécifique pour chaque image */
+    height: auto; /* Pour maintenir le ratio d'aspect de l'image */
+    margin: 0 10px; /* Marge entre chaque image */
+    margin-bottom: 50px;
+    object-fit: contain; /* Ajuste l'image tout en préservant son ratio d'aspect */
+}
+
 figcaption {
     text-align: center;
     font-style: italic;
