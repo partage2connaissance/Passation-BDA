@@ -360,53 +360,13 @@ blockquote {
 
 /* Style pour les liens */
 a {
+    display: block;
     color: #e70fd8;
     text-decoration: none;
     font-size: 1.5em;
-}
-
-.steampunk_2 {
-    margin-left: 680px;
-}
-
-.steampunk_3 {
-    margin-left: 610px;
-}
-
-.avatar_8 {
-    margin-left: 650px;
-}
-
-.avatar_9 {
-    margin-left: 640px;
-}
-
-.avatar_10 {
-    margin-left: 620px;
-}
-
-.moulinsart_3 {
-    margin-left: 640px;
-}
-
-.moulinsart_4 {
-    margin-left: 650px;
-}
-
-.cyber_2 {
-    margin-left: 650px;
-}
-
-.cyber_3 {
-    margin-left: 630px;
-}
-
-.atelier_1 {
-    margin-left: 580px;
-}
-
-.atelier_3 {
-    margin-left: 630px;
+    margin: 0 auto;
+    width: max-content;
+    text-align: center;
 }
 
 
@@ -414,35 +374,3 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Media Queries pour les téléphones */
-@media screen and (max-width: 480px) {
-    .container {
-        padding: 10px;
-    }
-    
-    h2 {
-        margin-left: 20px;
-    }
-    
-    h3 {
-        margin-left: 20px;
-    }
-    
-    h4 {
-        margin-left: 20px;
-    }
-    
-    p {
-        margin-right: 15px;
-        margin-left: 15px;
-    }
-    
-    li {
-        margin-left: 20px;
-        margin-right: 15px;
-    }
-    
-    blockquote {
-        margin-left: 10px;
-    }
-}
