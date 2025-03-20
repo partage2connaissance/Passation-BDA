@@ -1,0 +1,376 @@
+/* Réinitialisation des styles par défaut */
+body, h1, h2, h3, p, figure {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(61, 61, 61);
+    color: #fff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 14px 30px;
+    margin-bottom: 40px;
+}
+
+.topbar p {
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+h1, h2, h3, h4 {
+    margin-top: 20px;
+    margin-bottom: 10px; /* Ajout de marge en bas pour séparer les titres du contenu */
+}
+
+h1 {
+    font-size: 24px;
+    color: #fff;
+}
+
+h2 {
+    font-size: 20px;
+    margin-left: 180px;
+    color: #fff;
+}
+
+h3 {
+    font-size: 18px;
+    margin-left: 200px;
+    text-decoration: underline;
+    color: rgb(71, 135, 86);
+    text-decoration-color: rgb(71, 135, 86); /* Couleur du soulignement */
+    text-decoration-thickness: 2px; /* Épaisseur du soulignement */
+    margin-bottom: 4px; /* Espacement entre le titre h3 et le soulignement */
+}
+
+h4 {
+    font-size: 18px;
+    margin-left: 220px;
+    text-decoration: underline;
+    color: rgb(181, 73, 73);
+    text-decoration-color: rgb(181, 73, 73); /* Couleur du soulignement */
+    text-decoration-thickness: 2px; /* Épaisseur du soulignement */
+    margin-bottom: 4px; /* Espacement entre le titre h3 et le soulignement */
+}
+
+p {
+    margin-bottom: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+    text-indent: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    width: 500px;
+}
+
+.splatoon_1 {
+    display: flex;
+    flex-direction: row; /* Assurez-vous que les éléments sont alignés sur la ligne */
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+.splatoon_1 img {
+    width: 500px; /* Largeur spécifique pour chaque image */
+    margin: 0 10px; /* Marge entre chaque image */
+    margin-bottom: 50px;
+}
+
+.splatoon_3 {
+    display: flex;
+    flex-direction: row; /* Assurez-vous que les éléments sont alignés sur la ligne */
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+.splatoon_3 img {
+    width: 500px; /* Largeur spécifique pour chaque image */
+    margin: 0 10px; /* Marge entre chaque image */
+    margin-bottom: 50px;
+}
+
+.splatoon_2 img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+}
+
+.steampunk_1 {
+    display: flex;
+    flex-direction: row; /* Assurez-vous que les éléments sont alignés sur la ligne */
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+.steampunk_1 img {
+    width: 300px; /* Largeur spécifique pour chaque image */
+    margin: 0 10px; /* Marge entre chaque image */
+    margin-bottom: 50px;
+}
+
+.steampunk_4 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    width: 400px;
+}
+
+
+.budget {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+}
+
+.among_us_1 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+}
+
+.among_us_2 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    width: 1200px;
+}
+
+.among_us_3 {
+    display: flex;
+    flex-direction: row; /* Assurez-vous que les éléments sont alignés sur la ligne */
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+.among_us_3 img {
+    width: 400px; /* Largeur spécifique pour chaque image */
+    margin: 0 10px; /* Marge entre chaque image */
+    margin-bottom: 50px;
+}
+
+.among_us_4 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    width: 500px;
+}
+
+.among_us_5 {
+    display: flex;
+    flex-direction: row; /* Assurez-vous que les éléments sont alignés sur la ligne */
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+.among_us_5 img {
+    width: 500px; /* Largeur spécifique pour chaque image */
+    height: auto; /* Pour maintenir le ratio d'aspect de l'image */
+    margin: 0 10px; /* Marge entre chaque image */
+    margin-bottom: 50px;
+    object-fit: contain; /* Ajuste l'image tout en préservant son ratio d'aspect */
+}
+
+.among_us_6 {
+    display: flex;
+    flex-direction: row; /* Assurez-vous que les éléments sont alignés sur la ligne */
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+.among_us_6 img {
+    width: 500px; /* Largeur spécifique pour chaque image */
+    height: auto; /* Pour maintenir le ratio d'aspect de l'image */
+    margin: 0 10px; /* Marge entre chaque image */
+    margin-bottom: 50px;
+    object-fit: contain; /* Ajuste l'image tout en préservant son ratio d'aspect */
+}
+
+.avatar_1 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    width: 350px;
+}
+
+.avatar_2 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    width: 500px;
+}
+
+.avatar_3 {
+    display: flex;
+    flex-direction: row; /* Assurez-vous que les éléments sont alignés sur la ligne */
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+.avatar_3 img {
+    width: 500px; /* Largeur spécifique pour chaque image */
+    height: auto; /* Pour maintenir le ratio d'aspect de l'image */
+    margin: 0 10px; /* Marge entre chaque image */
+    margin-bottom: 50px;
+    object-fit: contain; /* Ajuste l'image tout en préservant son ratio d'aspect */
+}
+
+.avatar_4 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    width: 500px;
+}
+
+.avatar_5 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    width: 500px;
+}
+
+.avatar_6 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    width: 500px;
+}
+
+.avatar_7 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    width: 500px;
+}
+
+.moulinsart_1 {
+    display: flex;
+    flex-direction: row; /* Assurez-vous que les éléments sont alignés sur la ligne */
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+.moulinsart_1 img {
+    width: 500px; /* Largeur spécifique pour chaque image */
+    height: auto; /* Pour maintenir le ratio d'aspect de l'image */
+    margin: 0 10px; /* Marge entre chaque image */
+    margin-bottom: 50px;
+    object-fit: contain; /* Ajuste l'image tout en préservant son ratio d'aspect */
+}
+
+.moulinsart_2 {
+    display: flex;
+    flex-direction: row; /* Assurez-vous que les éléments sont alignés sur la ligne */
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+.moulinsart_2 img {
+    width: 500px; /* Largeur spécifique pour chaque image */
+    height: auto; /* Pour maintenir le ratio d'aspect de l'image */
+    margin: 0 10px; /* Marge entre chaque image */
+    margin-bottom: 50px;
+    object-fit: contain; /* Ajuste l'image tout en préservant son ratio d'aspect */
+}
+
+.cyber_1 {
+    display: flex;
+    flex-direction: row; /* Assurez-vous que les éléments sont alignés sur la ligne */
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+.cyber_1 img {
+    width: 500px; /* Largeur spécifique pour chaque image */
+    height: auto; /* Pour maintenir le ratio d'aspect de l'image */
+    margin: 0 10px; /* Marge entre chaque image */
+    margin-bottom: 50px;
+    object-fit: contain; /* Ajuste l'image tout en préservant son ratio d'aspect */
+}
+
+.atelier_2 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    width: 500px;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+    font-size: 14px;
+}
+
+/* Ajout de marges aux côtés pour éviter que les éléments soient collés aux bords de l'écran */
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Style spécifique pour les listes */
+ul, ol {
+    margin-bottom: 20px;
+    margin-left: 20px; /* Ajout de marge à gauche pour les listes */
+}
+
+li {
+    margin-bottom: 10px;
+    margin-left: 230px;
+    margin-right: 200px;
+}
+
+/* Ajout de marges aux côtés pour les citations */
+blockquote {
+    background-color: #f9f9f9;
+    border-left: 5px solid #ccc;
+    margin: 0 0 20px;
+    padding: 10px;
+    margin-left: 20px; /* Ajout de marge à gauche pour les citations */
+}
+
+/* Style pour les liens */
+a {
+    display: block;
+    color: #e70fd8;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 0 auto;
+    width: max-content;
+    text-align: center;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingé Son</title>
+    <link rel="stylesheet" href="inge_lumiere.css">
+</head>
+
+<body>
+    
+    <div class="main-container">
+        
+        <div class="topbar">
+            <p>Ingé Son</p>
+        </div>
+    </div>
+
+    <h2>Rôles du respo son</h2>
+    <p>
+        Les respos son sont responsables de tout ce qui tourne autour de la sonorisation lors
+        d’évènements organisés par le BDA, que ce soit de concerts organisés par le BDA, de
+        gestion des micros en KFET (même système au cercle) ou encore les classiques
+        scènes ouvertes.
+        Tout le monde peut évidemment gérer le son, mais ce sont aux respos son de
+        s’assurer que les gens savent vraiment manipuler le matériel sonore.
+    </p>
+
+    <h3>Les différents types de câbles audio</h3>
+    <p>
+        Avec le matériel de la ME, on se sert principalement de 3 types de câbles différents :
+    </p>
+    <ul>
+        <li>Le câble Jack, de diamètre 3.5mm ou 6.35mm, qui sert de sortie d’instrument
+        et pour les entrées d’amplis;</li>
+        <li>Le câble XLR (câble DMX = câble XLR renforcé à plus forte impédance), qui
+            sert d’entrée ou de sortie aux micros, aux retours, aux amplis</li>
+        <li>Le câble Speakon, qui sert pour les enceintes et le gros caisson de basse, dont
+            on se sert pour les événements extérieurs ou pour les répétitions dans la salle
+            musique.</li>
+    </ul>
+    <p>
+        Parfois un ampli a une sortie Jack, et pour la connecter à la console, il faut repasser
+        par un boîtier qui convertit le signal de Jack vers XLR (c’est aussi le cas du piano) ;
+        Sinon, il faut repiquer l’ampli : on branche un micro, à sortie XLR qui va capter le son
+        de l’ampli. L’inconvénient c’est qu’il est plus compliqué de gérer le volume de l’ampli à
+        distance puisqu’une partie du son sort également de l’ampli en plus du son des
+        façades.
+        Mention spéciale pour les micros overhead (micros batterie), ils ont besoin de tension
+        pour fonctionner, donc dans la console il faut activer l’option +48V. Attention à ne pas
+        l’activer si il ne le faut pas, et faire gaffe sinon, le volume a tendance à exploser d’un
+        coup…
+    </p>
+
+    <h3>L'EQ</h3>
+    <p>
+        L’EQ (Equalizer) agit comme une somme de filtres paramétriques, où on peut modifier
+        le type (passe-bas, passe-haut, passe-bande…), la fréquence d’action, la bande
+        passante, le gain.
+        La console de mix est aussi équipée d’un de-esser (pour enlever les ‘S’ des micros).
+        On peut aussi afficher les volumes de la piste en cliquant sur “RTA”.
+        Sur les micros, il faut placer un passe-bas, un passe-haut pour filtrer les fréquences
+        trop hautes et trop basses qui pourraient capter les instruments pas voulus.
+        Il est possible qu’une fréquence pose problème car trop de résonance dans la salle.
+        Pour corriger cela, on prend un passe-bande avec un gain positif élevé, et un facteur
+        Q élevé, et on balaye les fréquences jusqu’à tomber précisément sur la fréquence
+        problématique. Une fois qu’on l’a trouvée, il suffit de diminuer le gain minimum en
+        diminuant un peu Q.
+        Pour les micros chants, on aime bien mettre en plus de ça un de-esser si on entend
+        eaucoup les ‘S’, et parfois baisser un peu les graves et monter un peu les aigus pour
+        donner un son plus clair à la voix.
+    </p>
+    <figure>
+        <img src="EQ_micro.png">
+    </figure>
+
+    <ul>
+        <li>HPF : passe-haut et LPF : passe-bas : filtrer les sons de la batterie, des autres instruments, le bruit ambiant ;</li>
+        <li>1 : diminuer un peu les basses de la voix ;</li>
+        <li>2 : Enlever une fréquence résonnante problématique ;</li>
+        <li>3 : augmenter un peu les aigus de la voix;</li>
+        <li>4 : pas utilisé donc gain de 0dB.</li>
+    </ul>
+
+    <h3>Le compresseur, le gate</h3>
+    <p>
+        Le compresseur agit comme un réducteur de dynamique (plus haut niveau de dB - plus bas niveau de dB)
+        Au-delà d’un certain volume (threshold), le volume de la source est divisé d’un facteur
+        (ratio). Le compresseur en dessous divise par un facteur 2.8 le signal d’entrée si
+        celui-ci a un volume plus élevé que -20.2dB.
+    </p>
+
+    <figure>
+        <img src="compresseur.png">
+    </figure>
+    <p>
+        On peut s’en servir le/la chanteur/euse est très agressif sur les “B” et les “P”, ça peut
+        aider à lisser un peu le son, à faire en sorte que le volume monte pas trop lors de très
+        gros bruits.
+        Une gate est un compresseur inversé, en dessous d’une certaine valeur de volume
+        (threshold) on va couper complètement le son. C’est très utile pour couper le bruit
+        blanc d’un ampli quand les musiciens ne jouent pas par exemple.
+    </p>
+
+    <h3>Reverb Delay</h3>
+    <p>
+        La console propose aussi des effets de reverb et de delay qui sont modulables
+        également, mais je vous laisserai regarder ça de plus près. Pour y accéder, il faut
+        cliquer dans l’onglet “FX Send” associé à la piste, pour modifier le volume de la piste
+        avec effet (qui s’additionne à la piste originelle, donc attention à l’augmentation de
+        volume).
+        On met généralement une reverb avec les voix, c’est plus joli, et parfois avec les
+        guitares acoustiques mais pas forcément. L’important c’est de modérer et de pas trop
+        en mettre.
+    </p>
+
+    <h2>Matériel Kfet</h2>
+    <h3>L'Aquarium</h3>
+    <p>
+        L'aquarium (bocal en verre sur le côté de la KFET) est l’endroit où tout le matériel de
+        sonorisation est situé. On y trouve principalement le cube en verre où sont stockés la
+        table de mix et le récepteur bluetooth ; et l’armoire électrique, dont on ne se sert
+        qu’en cas de problème majeur.
+    </p>
+    <h3>Table de mix</h3>
+    <p>
+        La table de mix en KFET est *modele*. Dans le mur du fond de la scène, il y a un
+        boîtier de 16 entrées et 8 sorties XLR. Les câbles de ce boîtier sont reliés jusqu’à la
+        carte son de la table de mix. Un routeur WiFi est relié à cette carte, ce qui permet
+        d’accéder à la console de mix en se connectant sur le WiFi TPlink à l’adresse
+        192.168.1.100 Une interface apparaît alors, et après avoir choisi le type d’appareil sur
+        lequel on était, on peut accéder à la console de mix en elle-même.
+        On peut créer et charger des shows, qui contiennent eux même des scènes. Pour
+        chaque scène, les paramètres de gain, de volume, d’EQ, d’autres effets sont
+        enregistrés, et pour toute modification faite, la scène devra être enregistrée si veut
+        garder ces paramètres après avoir sélectionné une autre scène.
+    </p>
+    <p>Bons réflexes pour les scènes ouvertes au niveau de la console de mix :</p>
+    <ul>
+        <li> Au départ, créer un nouveau show, à la date de la scène ouverte</li>
+        <li>Mettre le gain de toutes les pistes au minimum (les muter ou réduire le volume n'impacte que le volume en façade et pas le volume des retours), sauf éventuellement pour le micro BT ou le BT en lui-même. Attention : Le volume en façade doit rester à 0dB le plus possible.</li>
+        <li> Commencer à brancher les entrées au fond de la scène, et renommer la piste en conséquence (F2 en ayant sélectionné la piste)</li>
+        <li>Mettre le volume façade de la piste vers 0dB, et monter le gain de la piste jusqu’à ce que le curseur vert sur la piste atteigne les -12dB.</li>
+        <li>Ajuster le volume jusqu’à ce que ça rende bien, en ajoutant les pistes une à une.</li>
+    </ul>
+</body>

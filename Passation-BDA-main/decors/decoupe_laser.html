@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La découpe laser</title>
+    <link rel="stylesheet" href="inge_lumiere.css">
+</head>
+
+<body>
+    
+    <div class="main-container">
+        
+        <div class="topbar">
+            <p>La découpe laser</p>
+        </div>
+    </div>
+
+    <p>
+        Voici un petit tuto sur comment utiliser la découpe laser.
+        Cela permet de faire des décors 3D facilement en emboitant des cartons, de faire des découpes arrondis parfaites, faire des décors stylés à la chaîne, ...
+        Par contre il est vraiment important de s'organiser en avance. 
+        En effet, Hubert Taxil est disponible sur un emploi du temps bien précis, qui changer d'une semaine à l'autre (ouverture, toolbox, ...).
+        Il nous est souvent arrivé que Hubert ne soit pas disponible sur le premier créneau que nous lui proposions.
+        Si prendre en avance permet d'être sûr d'avoir des créneaux disponibles.
+    </p>
+    
+    <h2>Introduction</h2>
+    <p>
+        La découpe permet de graver, marquer et découper des pièces dans des rectangles de 80*50 cm, pas plus, cartons qui doivent être plat, et propres.
+        Le carton doit vraiment être plat (très légèrement bombé grand max), sinon il peut être refusé par Hubert. 
+    </p>
+    <p>
+        Vous avez là des petits exemples de ce qui est possible avec la découpe laser:
+    </p>
+    <figure class="exemple_4">
+        <img src="decoupe_laser_exemple_1.png">
+        <img src="decoupe_laser_exemple_2.png">
+        <img src="decoupe_laser_exemple_3.png">
+        <img src="decoupe_laser_exemple_4.png">
+    </figure>
+    <p>
+        Pour aller à la découpe laser vous avez besoin de:
+    </p>
+    <ul>
+        <li>Vos cartons coupés à la bonne taille;</li>
+        <li>Un rendez-vous calé au préalable avec Hubert Taxil;</li>
+        <li>vos plans au format svg.</li>
+    </ul>
+    <p>
+        L'agenda de disponibilité de Hubert est disponible sur Campus.
+    </p>
+    <p>
+        Pour découper vos cartons, au cutter c’est propre, à la scie c’est rapide.
+        Avoir une petite réserve de 80*50 en permanence, c’est cool, et ça sert à faire des patrons quand vous avez besoin.
+        Les décors réalisés peuvent être jolis, mais aussi utiles, et constituer des anims, cf les épées d’exc’art’libur. 
+    </p>
+    <figure class="epe">
+        <img src="epe_excalibrut.png">
+    </figure>
+    <p>
+        Voilà par exemple le plan des épées : en rouge, la découpe, en bleu le marquage. 
+        Le premier plan correspond à la garde et la lame : c’est un carton, gravé pour faciliter le pliage. 
+        Prendre garde à bien prendre en compte l’épaisseur du carton (la rainure du deuxième pliage prendra deux épaisseurs de carton, donc plus épaisse de 1* la taille du carton…). 
+    </p>
+    <p>
+        Ce genre de plan est dispo sur le drive BDA, hésitez pas à les réutiliser.
+        Pour faire les plans, You Tube est votre ami, et sinon je fais un petit tuto ici.
+    </p>
+
+    <h2>Tuto inkscape</h2>
+    <p>
+        Les plans de la découpe laser se font sur le logiciel inkscape (gratuit), enregistré au format svg.
+    </p>
+    <h3>L'arrivé sur inskcape</h3>
+    <figure class="tuto_1">
+        <img src="inkscape_1.png">
+    </figure>
+    <p>
+        Voici la tête d'inkscape de base, c est une feuille 21*29,7 cm.
+        Pour commencer, on la met en 80*50 cm.
+        Pour ça: File -> Document Properties -> Width = 500, Height = 800 (c'est les tailles en millimètres).
+    </p>
+    <h3>La barre d'outils</h3>
+    <figure class="barre_outil">
+        <img src="inkscape_2.png">
+    </figure>
+    <p>
+        Voici la barre d outil tout en haut: 
+    </p>
+    <ul>
+        <li>1: la souris normal;</li>
+        <li>2: gérer les nodes (j'en parle après);</li>
+        <li>4: faire un carré;</li>
+        <li>5: faire un rond</li>
+        <li>6: faire un polygone régulier à n côté;</li>
+        <li>9: le pen;</li>
+        <li>12: outil texte;</li>
+        <li>21: (avant avant dernier) la règle pour mesurer vos plans directement.</li>
+    </ul>
+
+    <h3>Outils</h3>
+    <p>Voici l'outil carré, c'est un object (après il y aura des pahts).</p>
+    <ul>
+        <li>en rouge et orange : les positions x et y : le point 0 0 se situe en haut à gauche </li>
+        <li>en jaune et vert clair width et height en mm pour modifier la taille de la forme </li>
+    </ul>
+    <p>sur la barre sur le côté droit, on est dans FILL là, et on plusieurs option de fill (là il y n’y en a pas)</p>
+    <img class="tuto_2" src="inkscape_3.png">
+    <p>la partie importante est juste à côté dans l’onglet stroke paint, vérifier que vous êtes dans RGB et sur le carré plein bleu et vous pouvez gérer la couleur </p>
+    <ul>
+        <li>Découpe : rouge en R = 255 G = 0 B =0</li>
+        <li>Gravure : bleu avec R = 0 G = 0 B = 255</li>
+        <li>Marquage : noir R = 255 G =255 B = 255</li>
+    </ul>
+    <img class="tuto_3" src="inkscape_4.png">
+    <p>Object to path</p>
+    <img class="tuto_4" src="inkscape_5.png">
+    <p>click and drag pour changer la courbe comme vous voulez, double click pour créer un nouveau node sur le path sur lequel vous avez la souris.</p>
+    <img class="tuto_5" src="inkscape_6.png">
+    <p>Autre exemple. Vous pouvez aussi déplacer les languettes de chaque côté du node.</p>
+    <p>Hésitez pas à explorer un peu, vous avez différents type de nodes qui ne vous laissent pas faire les mêmes choses avec les languette.</p>
+    <img class="tuto_6" src="inkscape_7.png">
+    <p>Vous pouvez jouer avec les options et créer des trucs à partir de ça : on rajoute une image d’une magnifique asso d’intérêt général : on pourrait utiliser l’outil pen puis du click and drag pour décalquer, on va faire autrement.</p>
+    <img class="tuto_7" src="inkscape_8.png">
+    <p>Aller cliquer sur le premier bouton, celui entouré en bleu sur l image ci dessous</p>
+    <img class="tuto_8" src="inkscape_9.png">
+    <p>trace to bitmap > brightness cutoff (jouez avec ça aussi)> apply</p>
+    <p>vous allez voir que pour avoir un résultat de qualité il faut souvent tripoter un peu tous les paramètres, hésitez pas à tester.</p>
+    <img class="tuto_9" src="inkscape_10.png">
+    <p>transformez en path une image ! et ensuite stroke pour l’impression etc.
+        Hésitez pas à nettoyer les images, plus il y a de nodes plus c’est long.
+        </p>
+
+
+
+</body>
